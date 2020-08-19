@@ -1,0 +1,55 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <div class="hello">
+        <div class="to">
+         <div class="buttom">
+             <div id="btn"></div>
+             <button type="button" class="ruo"onclick="login()"> login</button>
+             <button type="button" class="ruo" onclick="signup()" > sign up</button>
+        </div>
+         <div class="icon">
+             <img src="fb.jpg">
+             <img src="ig.jpg">
+             <img src="tw.jpg">
+         </div>
+         <form  id="login" class="input"> 
+          <input type="text" class="top" placeholder="username" required>
+          <input type="password" class="top" placeholder="enter password" required>
+          <input type="checkbox" class="el" ><span> remember password</span>
+          <button type="submit" class="btn-sm" > login</button>
+         </form>
+         <form id="rebg" class="input"> 
+            <input type="text" class="top" placeholder="username" required>
+            <input type="email" class="top" placeholder="email" required>
+            <input type="password" class="top" placeholder="enter password" required>
+            <input type="checkbox" class="el" ><span> I agree to terms & conditons</span>
+            <button type="submit" class="btn-sm" > register</button>
+           </form>
+    </div>
+    </div>
+    <script>
+        var x =document.getElementById("login")
+        var y =document.getElementById("rebg")
+        var z =document.getElementById("btn")
+
+        function login(){
+            x.style.left = "-400px"
+            y.style.left = "50px"
+            z.style.left = "110px"
+        }
+        function signup(){
+            x.style.left = "50px"
+            y.style.left = "450px"
+            z.style.left = "0px"
+        }
+        
+    </script>
+</body>
+</html>
