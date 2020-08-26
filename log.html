@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css" />
 </head>
 <body>
     <div class="hello">
@@ -20,17 +21,19 @@
              <img src="tw.jpg">
          </div>
          <form  id="login" class="input"> 
-          <input type="text" class="top" placeholder="username" required>
-          <input type="password" class="top" placeholder="enter password" required>
-          <input type="checkbox" class="el" ><span> remember password</span>
-          <button type="submit" class="btn-sm" > login</button>
+          <input type="text" class="top  form-control" placeholder="username" required><br>
+            <input type="password" class="top form-control" placeholder="enter password" required><br>
+          <button style="width: 100%;" type="submit" class="btn btn-sm block" > login</button>
          </form>
          <form id="rebg" class="input"> 
-            <input type="text" class="top" placeholder="username" required>
-            <input type="email" class="top" placeholder="email" required>
-            <input type="password" class="top" placeholder="enter password" required>
-            <input type="checkbox" class="el" ><span> I agree to terms & conditons</span>
-            <button type="submit" class="btn-sm" > register</button>
+            <input type="text" class="top  form-control" placeholder="username" required>
+            <br>
+            <input type="email" class="top  form-control" placeholder="email" required>
+            <br>
+            <input type="password" class="top  form-control" placeholder="enter password" required>
+            <br>
+            <input type="checkbox" class="btn btn-sm" placeholder="terms and conditions" required></input>
+            <button type="submit" style="width: 100%" class="btn-sm btn block" > register</button>
            </form>
     </div>
     </div>
